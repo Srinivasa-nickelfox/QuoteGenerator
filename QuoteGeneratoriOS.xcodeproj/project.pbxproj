@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BCB46FF28A0E51A00FF4AA3 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB46FE28A0E51A00FF4AA3 /* BaseRouter.swift */; };
+		2BCB470128A0E52E00FF4AA3 /* QuotesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB470028A0E52E00FF4AA3 /* QuotesRouter.swift */; };
+		2BCB470528A0E56C00FF4AA3 /* Quote+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB470428A0E56C00FF4AA3 /* Quote+API.swift */; };
+		2BCB470728A0E57B00FF4AA3 /* ModelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB470628A0E57B00FF4AA3 /* ModelError.swift */; };
+		2BCB470A28A0E5A000FF4AA3 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB470928A0E5A000FF4AA3 /* APIConfig.swift */; };
+		2BCB470C28A0E5B000FF4AA3 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB470B28A0E5B000FF4AA3 /* ErrorResponse.swift */; };
+		2BCB470E28A0E5C000FF4AA3 /* AuthHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB470D28A0E5C000FF4AA3 /* AuthHeaders.swift */; };
+		2BCB471028A0E5CE00FF4AA3 /* QuotesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB470F28A0E5CE00FF4AA3 /* QuotesAPIClient.swift */; };
+		2BCB471228A0E7CF00FF4AA3 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB471128A0E7CF00FF4AA3 /* Article.swift */; };
 		2BD3CC9D289A752A00EFE8FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3CC9C289A752A00EFE8FA /* AppDelegate.swift */; };
 		2BD3CC9F289A752A00EFE8FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3CC9E289A752A00EFE8FA /* SceneDelegate.swift */; };
 		2BD3CCA1289A752A00EFE8FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3CCA0289A752A00EFE8FA /* ViewController.swift */; };
 		2BD3CCA4289A752A00EFE8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3CCA2289A752A00EFE8FA /* Main.storyboard */; };
 		2BD3CCA6289A752C00EFE8FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3CCA5289A752C00EFE8FA /* Assets.xcassets */; };
 		2BD3CCA9289A752C00EFE8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3CCA7289A752C00EFE8FA /* LaunchScreen.storyboard */; };
+		2BD3CCB2289A78AB00EFE8FA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3CCB0289A78AB00EFE8FA /* TableViewCell.swift */; };
+		2BD3CCB3289A78AB00EFE8FA /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3CCB1289A78AB00EFE8FA /* TableViewCell.xib */; };
+		2BD3CCBD289A83A500EFE8FA /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3CCBC289A83A500EFE8FA /* Networker.swift */; };
+		2BD3CCBF289A83FE00EFE8FA /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3CCBE289A83FE00EFE8FA /* QuoteModel.swift */; };
+		2BD3CCC2289A8D9600EFE8FA /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3CCC1289A8D9600EFE8FA /* CellModel.swift */; };
+		A385467989DCA5E1D840071E /* Pods_QuoteGeneratoriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FD7446D16A702968D39565 /* Pods_QuoteGeneratoriOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E134FDCE9E8850AA619A7AB /* Pods-QuoteGeneratoriOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuoteGeneratoriOS.debug.xcconfig"; path = "Target Support Files/Pods-QuoteGeneratoriOS/Pods-QuoteGeneratoriOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2BCB46FE28A0E51A00FF4AA3 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		2BCB470028A0E52E00FF4AA3 /* QuotesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesRouter.swift; sourceTree = "<group>"; };
+		2BCB470428A0E56C00FF4AA3 /* Quote+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quote+API.swift"; sourceTree = "<group>"; };
+		2BCB470628A0E57B00FF4AA3 /* ModelError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelError.swift; sourceTree = "<group>"; };
+		2BCB470928A0E5A000FF4AA3 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		2BCB470B28A0E5B000FF4AA3 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		2BCB470D28A0E5C000FF4AA3 /* AuthHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaders.swift; sourceTree = "<group>"; };
+		2BCB470F28A0E5CE00FF4AA3 /* QuotesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesAPIClient.swift; sourceTree = "<group>"; };
+		2BCB471128A0E7CF00FF4AA3 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		2BD3CC99289A752A00EFE8FA /* QuoteGeneratoriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteGeneratoriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD3CC9C289A752A00EFE8FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BD3CC9E289A752A00EFE8FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +49,13 @@
 		2BD3CCA5289A752C00EFE8FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BD3CCA8289A752C00EFE8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BD3CCAA289A752C00EFE8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD3CCB0289A78AB00EFE8FA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2BD3CCB1289A78AB00EFE8FA /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		2BD3CCBC289A83A500EFE8FA /* Networker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		2BD3CCBE289A83FE00EFE8FA /* QuoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		2BD3CCC1289A8D9600EFE8FA /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		336BCBF299BEC9478425E7B8 /* Pods-QuoteGeneratoriOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuoteGeneratoriOS.release.xcconfig"; path = "Target Support Files/Pods-QuoteGeneratoriOS/Pods-QuoteGeneratoriOS.release.xcconfig"; sourceTree = "<group>"; };
+		69FD7446D16A702968D39565 /* Pods_QuoteGeneratoriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuoteGeneratoriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A385467989DCA5E1D840071E /* Pods_QuoteGeneratoriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BCB46FC28A0E4E100FF4AA3 /* FoxAPIKit-Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB470828A0E58200FF4AA3 /* APICalling */,
+				2BCB470328A0E55300FF4AA3 /* Models */,
+				2BCB470228A0E53400FF4AA3 /* Entities */,
+				2BCB46FD28A0E50300FF4AA3 /* Routers */,
+			);
+			path = "FoxAPIKit-Networking";
+			sourceTree = "<group>";
+		};
+		2BCB46FD28A0E50300FF4AA3 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB46FE28A0E51A00FF4AA3 /* BaseRouter.swift */,
+				2BCB470028A0E52E00FF4AA3 /* QuotesRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		2BCB470228A0E53400FF4AA3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB471128A0E7CF00FF4AA3 /* Article.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2BCB470328A0E55300FF4AA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB470428A0E56C00FF4AA3 /* Quote+API.swift */,
+				2BCB470628A0E57B00FF4AA3 /* ModelError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2BCB470828A0E58200FF4AA3 /* APICalling */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB470928A0E5A000FF4AA3 /* APIConfig.swift */,
+				2BCB470B28A0E5B000FF4AA3 /* ErrorResponse.swift */,
+				2BCB470D28A0E5C000FF4AA3 /* AuthHeaders.swift */,
+				2BCB470F28A0E5CE00FF4AA3 /* QuotesAPIClient.swift */,
+			);
+			path = APICalling;
+			sourceTree = "<group>";
+		};
 		2BD3CC90289A752A00EFE8FA = {
 			isa = PBXGroup;
 			children = (
 				2BD3CC9B289A752A00EFE8FA /* QuoteGeneratoriOS */,
 				2BD3CC9A289A752A00EFE8FA /* Products */,
+				D24D52578F5018B6E005FF24 /* Pods */,
+				32F8676A5BC15DAEED533012 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +139,62 @@
 		2BD3CC9B289A752A00EFE8FA /* QuoteGeneratoriOS */ = {
 			isa = PBXGroup;
 			children = (
+				2BCB46FC28A0E4E100FF4AA3 /* FoxAPIKit-Networking */,
+				2BD3CCB9289A836600EFE8FA /* Cell */,
+				2BD3CCB7289A834B00EFE8FA /* Networking */,
 				2BD3CC9C289A752A00EFE8FA /* AppDelegate.swift */,
 				2BD3CC9E289A752A00EFE8FA /* SceneDelegate.swift */,
-				2BD3CCA0289A752A00EFE8FA /* ViewController.swift */,
+				2BD3CCB4289A82FD00EFE8FA /* Controller */,
 				2BD3CCA2289A752A00EFE8FA /* Main.storyboard */,
 				2BD3CCA5289A752C00EFE8FA /* Assets.xcassets */,
 				2BD3CCA7289A752C00EFE8FA /* LaunchScreen.storyboard */,
 				2BD3CCAA289A752C00EFE8FA /* Info.plist */,
 			);
 			path = QuoteGeneratoriOS;
+			sourceTree = "<group>";
+		};
+		2BD3CCB4289A82FD00EFE8FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BD3CCA0289A752A00EFE8FA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BD3CCB7289A834B00EFE8FA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2BD3CCBC289A83A500EFE8FA /* Networker.swift */,
+				2BD3CCBE289A83FE00EFE8FA /* QuoteModel.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2BD3CCB9289A836600EFE8FA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2BD3CCB0289A78AB00EFE8FA /* TableViewCell.swift */,
+				2BD3CCB1289A78AB00EFE8FA /* TableViewCell.xib */,
+				2BD3CCC1289A8D9600EFE8FA /* CellModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		32F8676A5BC15DAEED533012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69FD7446D16A702968D39565 /* Pods_QuoteGeneratoriOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D24D52578F5018B6E005FF24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E134FDCE9E8850AA619A7AB /* Pods-QuoteGeneratoriOS.debug.xcconfig */,
+				336BCBF299BEC9478425E7B8 /* Pods-QuoteGeneratoriOS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BD3CCAD289A752C00EFE8FA /* Build configuration list for PBXNativeTarget "QuoteGeneratoriOS" */;
 			buildPhases = (
+				79406B6F7AD6AC30344B5F40 /* [CP] Check Pods Manifest.lock */,
 				2BD3CC95289A752A00EFE8FA /* Sources */,
 				2BD3CC96289A752A00EFE8FA /* Frameworks */,
 				2BD3CC97289A752A00EFE8FA /* Resources */,
+				8EA0F086DF4D5A59AAE98C98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BD3CCA9289A752C00EFE8FA /* LaunchScreen.storyboard in Resources */,
+				2BD3CCB3289A78AB00EFE8FA /* TableViewCell.xib in Resources */,
 				2BD3CCA6289A752C00EFE8FA /* Assets.xcassets in Resources */,
 				2BD3CCA4289A752A00EFE8FA /* Main.storyboard in Resources */,
 			);
@@ -133,14 +266,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79406B6F7AD6AC30344B5F40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuoteGeneratoriOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA0F086DF4D5A59AAE98C98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuoteGeneratoriOS/Pods-QuoteGeneratoriOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuoteGeneratoriOS/Pods-QuoteGeneratoriOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuoteGeneratoriOS/Pods-QuoteGeneratoriOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BD3CC95289A752A00EFE8FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2BD3CCA1289A752A00EFE8FA /* ViewController.swift in Sources */,
+				2BCB470128A0E52E00FF4AA3 /* QuotesRouter.swift in Sources */,
+				2BCB470A28A0E5A000FF4AA3 /* APIConfig.swift in Sources */,
+				2BD3CCBD289A83A500EFE8FA /* Networker.swift in Sources */,
+				2BCB470528A0E56C00FF4AA3 /* Quote+API.swift in Sources */,
+				2BCB470728A0E57B00FF4AA3 /* ModelError.swift in Sources */,
+				2BD3CCBF289A83FE00EFE8FA /* QuoteModel.swift in Sources */,
+				2BD3CCC2289A8D9600EFE8FA /* CellModel.swift in Sources */,
+				2BCB471028A0E5CE00FF4AA3 /* QuotesAPIClient.swift in Sources */,
+				2BD3CCB2289A78AB00EFE8FA /* TableViewCell.swift in Sources */,
 				2BD3CC9D289A752A00EFE8FA /* AppDelegate.swift in Sources */,
 				2BD3CC9F289A752A00EFE8FA /* SceneDelegate.swift in Sources */,
+				2BCB471228A0E7CF00FF4AA3 /* Article.swift in Sources */,
+				2BCB46FF28A0E51A00FF4AA3 /* BaseRouter.swift in Sources */,
+				2BCB470E28A0E5C000FF4AA3 /* AuthHeaders.swift in Sources */,
+				2BCB470C28A0E5B000FF4AA3 /* ErrorResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +470,7 @@
 		};
 		2BD3CCAE289A752C00EFE8FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E134FDCE9E8850AA619A7AB /* Pods-QuoteGeneratoriOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +479,7 @@
 				DEVELOPMENT_TEAM = MVVMZ8HFH4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuoteGeneratoriOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuoteGeneratoriOS;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,6 +500,7 @@
 		};
 		2BD3CCAF289A752C00EFE8FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336BCBF299BEC9478425E7B8 /* Pods-QuoteGeneratoriOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +509,7 @@
 				DEVELOPMENT_TEAM = MVVMZ8HFH4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuoteGeneratoriOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuoteGeneratoriOS;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

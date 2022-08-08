@@ -9,8 +9,10 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
     
-    @IBOutlet var qoute: UILabel!
+    @IBOutlet var quotation: UILabel!
     @IBOutlet var author: UILabel!
+    
+    var quote: Quote? = Quote(text: "", author: "")
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,6 +23,14 @@ class TableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+        //self.quotation.text = quote?.text
+        //self.author.text = quote?.author
+        
+    }
+    
+    func configure(with viewModel: QuoteViewModel) {
+        quotation.text = viewModel.quote
+        author.text = viewModel.author
     }
     
 }

@@ -6,8 +6,8 @@
 //
 
 import Foundation
-
-/*struct Quote: Codable {
+/*
+struct Quote: Codable {
     var text: String
     var author: String?
 }
@@ -22,4 +22,4 @@ extension Quote {
         self.author = author
     }
 }
- */
+*/
