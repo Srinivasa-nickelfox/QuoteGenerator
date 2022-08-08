@@ -9,24 +9,24 @@ import Foundation
 import FoxAPIKit
 
 public enum QuotesRouter: BaseRouter {
-    case fetchNews(_ params: [String:Any])
+    case fetchQuotes(_ params: [String:Any])
     public var method: HTTPMethod {
         switch self {
-        case .fetchNews:
+        case .fetchQuotes:
             return .get
         }
     }
     
     public var path: String {
         switch self {
-        case .fetchNews:
+        case .fetchQuotes:
             return ""
         }
     }
     
     public var params: [String : Any] {
         switch self {
-        case .fetchNews(let params):
+        case .fetchQuotes(let params):
             return params
         }
     }

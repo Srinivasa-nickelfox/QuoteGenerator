@@ -13,7 +13,7 @@ extension Quote {
     
     public static func fetch(params: [String:Any]) -> SignalProducer<[Quote], ModelError>{
         return SignalProducer.init { observer, lifetime in
-            let router = QuotesRouter.fetchNews(params)
+            let router = QuotesRouter.fetchQuotes(params)
             QuotesAPIClient.shared.request(router) { (result :
                 APIResult<ListResponse<Quote>>) in
                 switch result {
